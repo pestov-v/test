@@ -23,7 +23,6 @@ const Table = ({ url, tableRef, sticky }) => {
       {sticky && <StickyHead titles={Object.keys(data[0])} />}
       <TableHead titles={Object.keys(data[0])} />
       <TableBody data={data} />
-      <TableBody data={data} />
     </table>
   );
 };
