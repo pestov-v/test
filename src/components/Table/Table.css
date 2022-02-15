@@ -1,0 +1,30 @@
+.table {
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.table__head {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.head__row {
+  width: 100%;
+}
+
+.sticky__head {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 600px;
+  margin-left: -10px;
+}
+
+.sticky__head_row {
+  display: flex;
+  background-color: dodgerblue;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.5rem 0.25rem;
+}
