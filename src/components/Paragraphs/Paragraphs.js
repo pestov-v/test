@@ -5,8 +5,8 @@ const Paragraphs = () => {
     <div>
       {Array(5)
         .fill(null)
-        .map((i) => (
-          <p>
+        .map((i, index) => (
+          <p key={index}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
             ducimus est praesentium recusandae reiciendis sit? Debitis enim fuga
             iusto voluptates?
